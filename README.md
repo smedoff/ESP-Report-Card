@@ -12,4 +12,4 @@ Program scripts can be found in the *Programs* folder which are categorized as *
 
 *Example*
 
-![GitHub Logo](Deliverables/esp_example.pdf?raw=true) 
+![GitHub Logo](Deliverables/esp_example.png?raw=true) 
