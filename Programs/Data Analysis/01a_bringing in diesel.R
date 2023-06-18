@@ -20,15 +20,7 @@ library(tidyverse)
   
   no2_diesel1.df <- no2_diesel1.df %>% 
     slice(-c(1:2)) #get rid of the first 2 row 
-  
-  #sm edits: 
-    # For some reason when I try and transform the Date column from a 5 digit 
-    # character object to a date object by passing excel_numeric_to_date through the 
-    # mutate function, it removes the first 2 observations.  Work around: do the transfomrations
-    # to a vector of dates and override the date column.  
-    # I dont like "hard coding" the dates like this because of something gets out of order 
-    # it can really mess things up.  TODO: Figure out why the excel_numeric_to_date function 
-    # removes the first two observations when passing it through mutate. 
+
   
   dates_as_date_object.v <- janitor::excel_numeric_to_date(as.numeric(no2_diesel1.df$Date))
   
