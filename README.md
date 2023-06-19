@@ -10,4 +10,6 @@ Open up the R project *ESP.Rproj*
 
 Program scripts can be found in the *Programs* folder which are categorized as *Data Analysis* and *ESP one pager*. The former working directory will produce 270+ figures and 100+ tables. The latter will compile a 1-2 page ESP report card based on the figures and tables of the end-users choosing.  
 
+*Data is provided upon request*
+
 ![GitHub Logo](Deliverables/esp_example.png?raw=true) 
